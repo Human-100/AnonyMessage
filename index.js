@@ -21,7 +21,7 @@ function decrypt(){
         message_array.push(temp)
 
     }
-    message_array.pop()
+    //message_array.pop()
     // console.log(message_array.join(""))
     // var message = ""
     // for(let i=0;i<message_array.length;i++){
