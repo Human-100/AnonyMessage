@@ -1,0 +1,114 @@
+body{
+    background-color: #212121;
+}
+h1{
+    color: lightgrey;
+    text-align: center;
+}
+h2{
+    color: lightgrey;
+    text-align: center;
+}
+h4{
+    color: grey;
+    text-align: right;
+    margin-bottom: 100px;
+    padding: 6px;
+}
+
+.box{
+    width: 100%;
+    transition: all 0.5s;
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.encrypt{
+    width: 400px;
+    border: groove 6px burlywood;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+input{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 320px;
+    height: 100px;
+}
+
+.b1{
+    height: 124px;
+    background: linear-gradient( #c31432
+    ,
+    #240b36 );
+    color: silver;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.b2{
+    height: 124px;
+    background: linear-gradient(  #c0392b
+    ,
+    #8e44ad   );
+    color: rgb(218, 216, 216);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.enc_txt{
+    width:375px;
+    background-color: aliceblue;
+    height: 200px;
+    border: none;
+}
+.decrypt{
+    width: 400px;
+    border-radius: 5px;
+    border: groove 6px burlywood;
+    background-color: aliceblue;
+
+
+
+}
+.dec_txt{
+    width:375px;
+    background-color: aliceblue;
+    height: 200px;
+    border: none;
+
+}
+textarea{
+    padding: 10px;
+    resize: none;
+}
+@media only screen and (max-width:1000px) {
+    
+    .box{
+        flex-direction: column;
+        row-gap: 100px;
+    }
+    .encrypt{
+        width: 300px;
+    }
+    input{
+        width: 220px;
+    }
+    .enc_txt{
+        width:275px;
+    }
+    .decrypt{
+        width: 300px;
+    }
+    .dec_txt{
+        width:275px;
+    }
+    .b1{
+        padding: 5px;
+    }
+    .b2{
+        padding: 3.5px;
+    }
+}
